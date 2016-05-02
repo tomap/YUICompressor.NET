@@ -12,6 +12,11 @@ namespace Yahoo.Yui.Compressor.Tests
     [TestFixture]
     public class JavaScriptCompressorTaskTests
     {
+        public JavaScriptCompressorTaskTests()
+        {
+            System.Environment.CurrentDirectory = TestContext.CurrentContext.TestDirectory;
+        }
+
         [Test]
         public void When_The_CompressionType_Is_None_The_Input_Files_Are_Concatenated_Unchanged()
         {
@@ -183,7 +188,7 @@ namespace Yahoo.Yui.Compressor.Tests
         }
 
         private static CompressorTask GetJavascriptCompressorFor(string fileName)
-        {
+        {           
             var compressorTask = CreateCompressorTask();
             if (!string.IsNullOrEmpty(fileName))
             {

@@ -43,6 +43,10 @@ namespace Yahoo.Yui.Compressor.Tests
         [TestFixture, Category("Compatability")]
         public class When_Verifying_CssCompressor_Compatabiliity : CompatabilityTests
         {
+            public When_Verifying_CssCompressor_Compatabiliity()
+            {
+                System.Environment.CurrentDirectory = TestContext.CurrentContext.TestDirectory;
+            }
             [Test]
             public void All_Css_Tests_Should_Pass_Succesfully()
             {
