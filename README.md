@@ -1,3 +1,12 @@
+This is a fork of YUICompressor.Net
+
+It contains the following changes:
+* signed package
+* build with appveyor [![Build status](https://ci.appveyor.com/api/projects/status/t41f7p9o4gi7c5q4?svg=true)](https://ci.appveyor.com/project/tomap/yuicompressor-net)
+* only YUICompressor is available (MSBuild, NAnt & Web.Optimization are not compiled, but PR and you will be answered)
+* .Net 4.5
+
+
 ##Project Description
 This is a .NET port of the Yahoo! UI Library's YUI Compressor Java project. The objective of this project is to compress any Javascript and Cascading Style Sheets to an efficient level that works exactly as the original source, before it was minified.
 
@@ -12,7 +21,7 @@ This is a .NET port of the Yahoo! UI Library's YUI Compressor Java project. The 
 
 [![NuGet Command with Web Optimization](http://i.imgur.com/kKyzt.png)](http://nuget.org/packages/YUICompressor.NET.Web.Optimization)
 
- 
+
 ##Main Features
 
 - Compress and/or Bundle Javascript and/or Cascading StyleSheets.
@@ -25,7 +34,7 @@ This is a .NET port of the Yahoo! UI Library's YUI Compressor Java project. The 
 Based on YUI Compressor version: 2.4.4 (last checked at 2011-01-17).
 
 ##How close to the Java Port?
-Pretty damn close, now :) *Same unit tests (which pass)*. 
+Pretty damn close, now :) *Same unit tests (which pass)*.
 The only thing I haven't been able to do is get the exact same obfuscation because the java code is using a hashtable instead of a sorted hashtable/dictionary. It's identical besides that (and works the same). Just visually look different but is exactly the same file size, etc.
 
 ##Video Tutorials
@@ -43,7 +52,7 @@ The only thing I haven't been able to do is get the exact same obfuscation becau
 ##Who's utilising this code/library?
 If you use this code in some project, please drop us a message so we can include it in this list :)
 
-- [Nancy.BundleIt](https://github.com/donnyv/Nancy.BundleIt) by [DonnyV](https://github.com/donnyv) 
+- [Nancy.BundleIt](https://github.com/donnyv/Nancy.BundleIt) by [DonnyV](https://github.com/donnyv)
 - SquishIt by Justin Etheredge
 - .Less (dot-less) by Christopher Owen, Erik van Brakel, Daniel Hoelbling and James Foster
 - Shinkansen: compress, crunch, combine, and cache JavaScript and CSS by Milan Negovan
