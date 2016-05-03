@@ -17,7 +17,7 @@ namespace Yahoo.Yui.Compressor
         public override string ToString()
         {
             return string.Format("Type:[{0}/{1} Value: [{2}]",
-                                 Token.name(TokenType),
+                                 Token.GetName(TokenType),
                                  TokenType,
                                  Value);
         }
