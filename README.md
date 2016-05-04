@@ -1,11 +1,13 @@
 This is a fork of YUICompressor.Net
 
 It contains the following changes:
-* signed package
+* signed package https://www.nuget.org/packages/YUICompressor.NET.Signed/
 * build with appveyor [![Build status](https://ci.appveyor.com/api/projects/status/t41f7p9o4gi7c5q4?svg=true)](https://ci.appveyor.com/project/tomap/yuicompressor-net)
 * only YUICompressor is available (MSBuild, NAnt & Web.Optimization are not compiled, but PR and you will be answered)
 * .Net 4.5
+* some code cleaning based on Roslyn Analyser (SonarLint, Refactoring Essentials and CodeCracker)
 
+----------------------------------------------------------------------------------
 
 ##Project Description
 This is a .NET port of the Yahoo! UI Library's YUI Compressor Java project. The objective of this project is to compress any Javascript and Cascading Style Sheets to an efficient level that works exactly as the original source, before it was minified.

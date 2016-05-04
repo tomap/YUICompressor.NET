@@ -3,14 +3,14 @@
     <metadata>
         <id>YUICompressor.NET.Signed</id>
         <version>0.0.0.0</version>
-        <title>YUICompressor .NET</title>
+        <title>YUICompressor .NET Signed</title>
         <authors>Tomap, Pure Krome and freeranger</authors>
         <owners>Pure Krome</owners>
         <licenseUrl>http://yuicompressor.codeplex.com/license/</licenseUrl>
-        <projectUrl>http://yuicompressor.codeplex.com/</projectUrl>        
+        <projectUrl>http://yuicompressor.codeplex.com/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This library can minify and/or bundle any Javascript and/or Cascading Style Sheets.
-            
+
 This is a direct .NET port of the original Yahoo! UI Library: YUI Compressor.</description>
         <summary>Minify and/or Combine JavaScript and/or Cascading Style Sheets.</summary>
         <releaseNotes />
@@ -22,7 +22,7 @@ This is a direct .NET port of the original Yahoo! UI Library: YUI Compressor.</d
         </dependencies>
     </metadata>
     <files>
-        <file src="..\..\Code\Yahoo.Yui.Compressor\bin\Release\Yahoo.Yui.Compressor.dll" target="lib\net45" /> 
-        <file src="..\..\Code\Yahoo.Yui.Compressor\bin\Release\Yahoo.Yui.Compressor.pdb" target="lib\net45" /> 
+        <file src="..\..\Code\Yahoo.Yui.Compressor\bin\Release\Yahoo.Yui.Compressor.dll" target="lib\net45" />
+        <file src="..\..\Code\Yahoo.Yui.Compressor\bin\Release\Yahoo.Yui.Compressor.pdb" target="lib\net45" />
     </files>
 </package>
