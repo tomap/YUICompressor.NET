@@ -18,7 +18,7 @@ build:
   publish_nuget: true
 
 after_build:
-  - cmd: nuget pack NuSpecs\YUICompressor.NET.nuspec -version "%APPVEYOR_BUILD_VERSION%"
+  - cmd: nuget pack Build\NuSpecs\YUICompressor.NET.nuspec -version "%APPVEYOR_BUILD_VERSION%"
 
 artifacts:
   path: '**\*.nupkg'
