@@ -7,6 +7,8 @@ It contains the following changes:
 * .Net 4.5
 * some code cleaning based on Roslyn Analyser (SonarLint, Refactoring Essentials and CodeCracker)
 
+License is still BSD. See License file
+
 ----------------------------------------------------------------------------------
 
 ##Project Description

@@ -6,8 +6,8 @@
         <title>YUICompressor .NET Signed</title>
         <authors>Tomap, Pure Krome and freeranger</authors>
         <owners>Pure Krome</owners>
-        <licenseUrl>http://yuicompressor.codeplex.com/license/</licenseUrl>
-        <projectUrl>http://yuicompressor.codeplex.com/</projectUrl>
+        <licenseUrl>https://github.com/tomap/YUICompressor.NET/license/</licenseUrl>
+        <projectUrl>https://github.com/tomap/YUICompressor.NET</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This library can minify and/or bundle any Javascript and/or Cascading Style Sheets.
 
