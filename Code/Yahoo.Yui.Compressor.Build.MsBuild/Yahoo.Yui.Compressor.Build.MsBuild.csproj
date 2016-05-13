@@ -49,8 +49,8 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EcmaScript.NET, Version=2.0.7.0, Culture=neutral, PublicKeyToken=024efafd08ade3a6, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\EcmaScript.Net45.Signed.2.0.7.0\lib\net45\EcmaScript.NET.dll</HintPath>
+    <Reference Include="EcmaScript.NET, Version=2.0.10.0, Culture=neutral, PublicKeyToken=024efafd08ade3a6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EcmaScript.Net45.Signed.2.0.10\lib\net45\EcmaScript.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Build.Framework" />
