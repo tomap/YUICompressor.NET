@@ -745,8 +745,8 @@ namespace Yahoo.Yui.Compressor.Tests
         }
 
         [Test]
-        [Description("https://github.com/YUICompressor-NET/YUICompressor.NET/issues/21")]
-        public void Compression_Fails_With_Invalid_Property_Id_When_A_Method_Is_Named_Default()
+        [Description("https://github.com/YUICompressor-NET/YUICompressor.NET/issues/21 - https://github.com/PureKrome/EcmaScript.NET/pull/7")]
+        public void Compression_Should_Not_Fails_With_Invalid_Property_Id_When_A_Method_Is_Named_Default()
         {
             // Arrange
             const string source = @"function onClick(e) {
@@ -763,12 +763,13 @@ namespace Yahoo.Yui.Compressor.Tests
                                             trigger: trigger,                                     // syntax error
                                             emitter: this                                         // syntax error
                                         });
+
                                     }";
             //Act & Assert
-            var actual = Assert.Throws<EcmaScriptRuntimeException>(() => target.Compress(source));
-            Console.WriteLine(actual.Message);
-            Assert.That(actual.Message.Contains("missing name after . operator"));
-            // Note: This is expected behaviour as "default" is a reserved word: http://www.w3schools.com/js/js_reserved.asp
+            Assert.DoesNotThrow(() => target.Compress(source));
+            // Note: This is expected behaviour as "default" is a reserved word:
+            // http://www.w3schools.com/js/js_reserved.asp
+            // See PR about this change: https://github.com/PureKrome/EcmaScript.NET/pull/7
         }
 
         [Test]
