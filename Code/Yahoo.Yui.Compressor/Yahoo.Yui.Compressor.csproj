@@ -69,9 +69,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EcmaScript.NET, Version=2.0.10.0, Culture=neutral, PublicKeyToken=024efafd08ade3a6, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\EcmaScript.Net45.Signed.2.0.10\lib\net45\EcmaScript.NET.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="EcmaScript.NET, Version=2.0.12.0, Culture=neutral, PublicKeyToken=024efafd08ade3a6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EcmaScript.Net45.Signed.2.0.12\lib\net45\EcmaScript.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
