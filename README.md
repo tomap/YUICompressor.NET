@@ -2,6 +2,7 @@ This is a fork of YUICompressor.Net
 
 It contains the following changes:
 * signed package https://www.nuget.org/packages/YUICompressor.NET.Signed/
+* depends on https://github.com/tomap/EcmaScript.NET (Signed version of EcmaScript.Net)
 * build with appveyor [![Build status](https://ci.appveyor.com/api/projects/status/t41f7p9o4gi7c5q4?svg=true)](https://ci.appveyor.com/project/tomap/yuicompressor-net)
 * only YUICompressor is available (MSBuild, NAnt & Web.Optimization are not compiled, but PR and you will be answered)
 * .Net 4.5
