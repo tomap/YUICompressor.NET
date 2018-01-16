@@ -40,3 +40,8 @@ App_Data/
 MainAssemblies
 output
 /Code/Yahoo.Yui.Compressor.Tests/*.js
+.vs/
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
