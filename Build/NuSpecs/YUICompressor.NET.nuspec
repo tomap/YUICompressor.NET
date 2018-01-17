@@ -18,7 +18,7 @@ This is a direct .NET port of the original Yahoo! UI Library: YUI Compressor.</d
         <language>en-au</language>
         <tags>compression, compressor, minification, obfuscation, minify, bundle, bundler, combine, javascript, js, CSS, cascading style sheets</tags>
         <dependencies>
-            <dependency id="EcmaScript.Net45.Signed" version="2.0.10.0" />
+            <dependency id="EcmaScript.Net45.Signed" version="2.0.12.0" />
         </dependencies>
     </metadata>
     <files>
